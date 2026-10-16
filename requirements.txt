@@ -1,0 +1,4 @@
+Flask
+pandas
+joblib
+pycaret==3.3.2
