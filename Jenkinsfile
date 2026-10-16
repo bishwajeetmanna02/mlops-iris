@@ -35,6 +35,11 @@ pipeline {
                 '''
             }
         }
+	stage('Deploy Model') {
+ 	   steps {
+	        sh 'sudo /usr/local/bin/deploy-iris-model'
+	   }
+	}
     }
 
     post {
